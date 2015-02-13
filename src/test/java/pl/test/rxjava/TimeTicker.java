@@ -18,7 +18,7 @@ public class TimeTicker {
 					} catch (Exception e) {
 						e.printStackTrace();
 					}
-					tickerSubject.onNext(System.currentTimeMillis());
+					tickerSubject.onNext(2500L);
 				}
 			}
 		}.start();
