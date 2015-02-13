@@ -14,12 +14,13 @@ public class TimeTicker {
 			public void run() {
 				while(true) {
 					try {
+						System.out.println("New interval");
 						Thread.sleep(3000);
 					} catch (Exception e) {
 						System.out.println(e);
 
 					}
-					tickerSubject.onNext(2500L);
+					tickerSubject.onNext(2000L);
 				}
 			}
 		}.start();
