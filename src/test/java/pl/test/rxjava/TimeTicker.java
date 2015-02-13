@@ -14,7 +14,7 @@ public class TimeTicker {
 			public void run() {
 				while(true) {
 					try {
-						Thread.sleep(2000);
+						Thread.sleep(3000);
 					} catch (Exception e) {
 						e.printStackTrace();
 					}
