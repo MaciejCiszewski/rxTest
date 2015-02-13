@@ -19,7 +19,7 @@ public class TimeTicker {
 						System.out.println(e);
 
 					}
-					tickerSubject.onNext(System.currentTimeMillis());
+					tickerSubject.onNext(2500L);
 				}
 			}
 		}.start();
