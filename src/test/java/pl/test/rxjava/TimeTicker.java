@@ -16,7 +16,8 @@ public class TimeTicker {
 					try {
 						Thread.sleep(2000);
 					} catch (Exception e) {
-						e.printStackTrace();
+						System.out.println(e);
+
 					}
 					tickerSubject.onNext(System.currentTimeMillis());
 				}
